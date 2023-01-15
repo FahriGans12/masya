@@ -91,22 +91,22 @@ karutamd = fs.readFileSync('./karuta/karuta.png')
 // UCAPAN WAKTU By MyMans APIs)
 const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
 if(time2 < "23:59:00"){
-var ucapanWaktu = 'Selamat Malam 🌌'
+var ucapanWaktu = 'Selamat Malam 🌺'
 }
 if(time2 < "19:00:00"){
-var ucapanWaktu = 'Selamat Petang 🌃'
+var ucapanWaktu = 'Selamat Petang 🌸'
  }
 if(time2 < "18:00:00"){
-var ucapanWaktu = 'Selamat Sore 🌆'
+var ucapanWaktu = 'Selamat Sore 🌷'
  }
 if(time2 < "15:00:00"){
-var ucapanWaktu = 'Selamat Siang 🏞️'
+var ucapanWaktu = 'Selamat Siang 🌹'
  }
 if(time2 < "11:00:00"){
-var ucapanWaktu = 'Selamat Pagi 🌅'
+var ucapanWaktu = 'Selamat Pagi 🥀'
  }
 if(time2 < "05:00:00"){
-var ucapanWaktu = 'Selamat Malam 🌌'
+var ucapanWaktu = 'Selamat Malam 🌼'
  }
 // TANGGAL By MyMans APIs 
 var buln = ['/01/', '/02/', '/03/', '/04/', '/05/', '/06/', '/07/', '/08/', '/09/', '/10/', '/11/', '/12/'];
@@ -213,7 +213,7 @@ participant: `0@s.whatsapp.net`, ...(from ?
 }
 	const kmd = (teks) => {
 naimi.sendMessage(from, { text : teks, contextInfo:{externalAdReply:{
-title:"Power Bot",
+title:"Reze~レゼ",
 body: "Free WhatsApp Bot", 
 thumbnail: fs.readFileSync("./karuta/webpmobile.jpg"),
 mediaType:1,
@@ -644,13 +644,13 @@ delete this.suit[roof.id]
 }
 }
 	menulist = `Hallo ${pushname} ${ucapanWaktu}
-● Nomor : ${sender.split('@')[0]}
-● User : ${isPremium ? 'Premium' : 'Free'}
-● Admin : ${isAdmins ? 'Ya' : 'No'}
-● Uang : ${checkuangUser(sender)}
-● Limit : ${isPremium ? 'UNLIMITED' : `${checklimitUser(sender)}`}
-● Library : Baileys MD
-● Language : JavaScript
+~レゼ Nomor : ${sender.split('@')[0]}
+~レゼ User : ${isPremium ? 'Premium' : 'Free'}
+~レゼ Admin : ${isAdmins ? 'Ya' : 'No'}
+~レゼ Uang : ${checkuangUser(sender)}
+~レゼ Limit : ${isPremium ? 'UNLIMITED' : `${checklimitUser(sender)}`}
+~レゼ Library : Baileys MD
+~レゼ Language : JavaScript
 
 Indonesia Timur :${moment().utcOffset('+0900').format('HH:mm')} WIT
 Indonesia Tengah :${moment().utcOffset('+0800').format('HH:mm')} WITA
@@ -1009,7 +1009,7 @@ ppimg = await naimi.profilePictureUrl(`${sender.split('@')[0]}@c.us`)
 ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 }
 const anuuh = `*「 𝙑𝙀𝙍𝙄𝙁𝙄𝘾𝘼𝙏𝙄𝙊𝙉 𝙎𝙐𝙆𝙎𝙀𝙎  」*
-*Terimakasih telah mendapatkan diri ke database power bot berikut adalah infonya*\n\n*●Nama : ${pushname}*\n*●Nomor : ${sender.split('@')[0]}*\n*●Pengguna : ${register.length}*\n*●SN : ${serialUser}*\n\n*Gunakan bot sewajarnya*`
+*Terimakasih telah mendapatkan diri ke database Reze~レゼ berikut adalah infonya*\n\n*●Nama : ${pushname}*\n*●Nomor : ${sender.split('@')[0]}*\n*●Pengguna : ${register.length}*\n*●SN : ${serialUser}*\n\n*Gunakan bot sewajarnya*`
 register.push(sender)
 fs.writeFileSync('./database/user/register.json', JSON.stringify(register))
 adduang(sender)
@@ -2170,7 +2170,7 @@ break
 case 'command':
   let sections = [
 {
-title: "DAFTAR MENU POWER BOT",
+title: "DAFTAR MENU REZE~レゼ",
 rows: [
 {title: "𝗠𝗔𝗜𝗡 𝗠𝗘𝗡𝗨", rowId: `mainmenu`, description: `Menampilkan daftar main menu`},
 {title: "𝗚𝗥𝗢𝗨𝗣 𝗠𝗘𝗡𝗨", rowId: `groupmenu`, description: `Menampilkan daftar group menu`},
