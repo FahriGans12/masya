@@ -26,7 +26,7 @@ global.mess = {
     group: 'Fitur Digunakan Hanya Untuk Group!',
     private: 'Fitur Digunakan Hanya Untuk Private Chat!',
     bot: 'Fitur Khusus Pengguna Nomor Bot',
-    wait: '*LOADING....*',
+    wait: '*Proses...*',
     nsfw: '*[❗] NSFW TIDAK AKTIF!!*',
     wrongFormat: 'Format yg anda masukan salah',
     banned: '*[❗] ANDA TELAH DI BANNED*',
