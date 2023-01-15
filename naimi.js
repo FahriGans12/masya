@@ -1293,7 +1293,7 @@ break
 case 'donasi':
   if (!isRegister) return reply(blomdaftar) & sendButMessage (sender, daftar1, daftar2, daftar3, { quoted: m}) 
     if (isBan) return reply(mess.banned)
-  reply('Donasi seikhlas nya kakak biar bot ini makin keren\nhttps://saweria.co/Yukishima\n\n*GAK MAKSA*')
+  reply('Donasi seikhlas nya langsung chat aja wa.me/6283811034750')
 break
 case 'premium2':
 if (!isOwner) return reply(mess.owner)
@@ -3724,7 +3724,7 @@ break
 case 'git': case 'gitclone':
 if (!isRegister) return reply(blomdaftar) & sendButMessage (sender, daftar1, daftar2, daftar3, { quoted: m}) 
     if (isBan) return reply(mess.banned)
-if (!args[0]) return reply(`Mana link nya?\nContoh :\n${prefix}${command} https://github.com/YukiShima4/tes`)
+if (!args[0]) return reply(`Mana link nya?\nContoh :\n${prefix}${command} https://github.com/fdev/new`)
 if (!isUrl(args[0]) && !args[0].includes('github.com')) return reply(`Link invalid!!`)
 let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
     let [, user, repo] = args[0].match(regex1) || []
@@ -4234,7 +4234,7 @@ break
 case 'igstory':
 if (!isRegister) return reply(blomdaftar) & sendButMessage (sender, daftar1, daftar2, daftar3, { quoted: m}) 
     if (isBan) return reply(mess.banned)
-if (!args[0]) return reply(`Nickname nya? Contoh :\n${prefix + command} Yukishima3_`)
+if (!args[0]) return reply(`Nickname nya? Contoh :\n${prefix + command} fdev90_`)
 hx.igstory(q)
 .then(async result => {
 for(let i of result.medias){
@@ -5905,14 +5905,8 @@ reply(`•Namabot : ${setting.botName}
 `)
 break
 case 'infoowner':
-pro = `*PROFILE OWNER BOT*
-•Nama : Yukishima
-•Umur : 18 Tahun
-•Asal : Bekasi
-•IG   : Yukishima3_
-•FB   : Yukishima
-•Saya bukan mastah saya pemula
-•Saya Bukan wibu :v`
+pro = `*xxxxxxx*
+wa.me/6283811034750`
 naimi.sendMessage(m.chat, { video: { url:'https://a.uguu.se/XqseYfhr.mp4' }, gifPlayback: true , caption:pro}, { quoted: m })
 break
 case 'menu':
